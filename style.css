@@ -737,10 +737,20 @@ h1, h2, h3, h4, h5 {
 .delay-7 { transition-delay: 0.7s; }
 .delay-8 { transition-delay: 0.8s; }
 
+/* Line Break Utilities */
+.sp-br { display: none; }
+
 /* Responsive */
 @media (max-width: 768px) {
     html { font-size: 14px; }
-    .hero-copy { font-size: 2.5rem; }
+    .hero-copy { font-size: 2rem; }
+    .section-title { font-size: 1.6rem; }
+    .large-title { font-size: 1.8rem; }
+    .cta-title { font-size: 1.6rem; }
+    
+    .pc-br { display: none; }
+    .sp-br { display: inline; }
+    
     .service-card {
         flex-direction: column;
         text-align: center;
